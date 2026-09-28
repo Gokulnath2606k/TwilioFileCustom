@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    /outpass-response
+        <Say voice="alice">
+            Hello Parent.
+            This is an automated call from the hostel administration.
+            Your son is requesting an outpass.
+            To approve the request, press 1.
+            To reject the request, press 2.
+        </Say>
+    </Gather>
+
+    <Say>
+        We did not receive any input. The outpass request remains pending.
+        Please contact the hostel office for assistance.
+    </Say>
+</Response>
